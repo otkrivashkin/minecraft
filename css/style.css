@@ -26,6 +26,7 @@
     clear: both;
 }
 
+
 /* header up */
 
 .green-line {
@@ -43,10 +44,30 @@ header .green-line p {
     line-height: 44px;
 }
 
-header .green-line .right img {
-    width: 28px;
-    background-color: #fff;
-    vertical-align: middle;
+.social li {
+    display: inline-block;
+    
+}
+
+.social a {
+    
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-indent: -9000px;
+    background: url(../img/spr_minecraft.png) no-repeat left top;
+}
+
+.social a.sk {
+    background-position: 0 0;
+}
+
+.social a.fb {
+    background-position: -34px 0;
+}
+
+.social a.gp {
+    background-position: -68px 0;
 }
 
 /* header down */
@@ -58,7 +79,7 @@ header .green-line .right img {
 .down .logo img {
     display: block;
     margin-right: 37px;
-    margin-bottom: 5px;    
+    margin-bottom: 5px;
     max-width: 100%;
 }
 
@@ -103,7 +124,7 @@ header .green-line .right img {
     margin-left: 20px;
 }
 
-.bottom a{
+.bottom a {
     text-decoration: none;
 }
 
@@ -132,6 +153,7 @@ header .green-line .right img {
     margin-top: 15px;
     max-width: 100%;
 }
+
 
 /* main-menu */
 
@@ -162,6 +184,7 @@ nav ul li:hover {
     background-color: #39bd54;
 }
 
+
 /* aside */
 
 .middle-info {
@@ -185,6 +208,7 @@ aside .red-list a {
     color: #ff5858;
 }
 
+
 /* ----------------------------- */
 
 aside .black-list a {
@@ -202,7 +226,9 @@ aside .black-list li:first-child {
     border-top: 1px solid #e7e7e7;
 }
 
+
 /* sub-menu */
+
 aside .red-list .sub-menu {
     display: none;
 }
@@ -224,7 +250,6 @@ hr {
 
 section {
     margin-left: 250px;
-    
 }
 
 section .the-biggest-content h2 {
@@ -238,6 +263,7 @@ section .the-biggest-content p {
 section .the-biggest-content img {
     max-width: 100%;
 }
+
 
 /* ---------------------------------- */
 
@@ -285,7 +311,6 @@ section.small-content {
 
 .element .text p {
     color: #fff;
-        
 }
 
 
@@ -309,8 +334,8 @@ section.small-content {
 .footer-up .info .middle p,
 .footer-up .info .middle a {
     color: #000;
-
 }
+
 
 /* ------------------------------- */
 
@@ -323,7 +348,7 @@ section.small-content {
 }
 
 .footer-middle span:last-child {
-    margin-right: 0;    
+    margin-right: 0;
 }
 
 .footer-middle span img {
@@ -331,26 +356,10 @@ section.small-content {
     max-width: 100%;
 }
 
+
 /* ------------------------------------ */
 
 .footer-down {
     margin: 24px 0;
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
